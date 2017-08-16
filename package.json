@@ -1,0 +1,21 @@
+{
+  "name": "exam_scheduler",
+  "version": "1.0.0",
+  "description": "exam scheduler app using node express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shreyas Sule",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "connect-flash": "^0.1.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.2",
+    "express-sessions": "^1.0.6",
+    "express-validator": "^3.1.3"
+  }
+}
